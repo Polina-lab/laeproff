@@ -1,0 +1,124 @@
+{
+  "topbar": {
+    "hours": "Mon–Sat 9:00–19:00",
+    "phone": "+372 555 0000",
+    "email": "info@laeproff.ee"
+  },
+  "nav": {
+    "calculator": "Calculator",
+    "about": "About us",
+    "advantages": "Advantages",
+    "services": "Services",
+    "portfolio": "Portfolio",
+    "how": "How it works",
+    "faq": "FAQ",
+    "reviews": "Reviews",
+    "contact": "Contact",
+    "cta": "Free consultation"
+  },
+  "hero": {
+    "eyebrow": "Ceiling specialists · Estonia",
+    "title": "Premium ceilings,",
+    "titleAccent": "engineered to perfection.",
+    "subtitle": "Stretch, suspended, acoustic and lit ceilings. Calculate your price in seconds — book installation in days.",
+    "ctaPrimary": "Get free consultation",
+    "ctaSecondary": "See our work"
+  },
+  "calc": {
+    "title": "Instant price calculator",
+    "subtitle": "Estimate your ceiling installation in seconds.",
+    "area": "Ceiling area (m²)",
+    "type": "Ceiling type",
+    "lamps": "Number of lamps",
+    "pipes": "Number of pipes / wiring units",
+    "estimate": "Estimated price",
+    "from": "from",
+    "breakdown": "Breakdown",
+    "base": "Base ({{area}} m² × {{rate}} €/m²)",
+    "lampsLine": "Lamps ({{count}} × 10 €)",
+    "pipesLine": "Pipes ({{count}} × 5 €)",
+    "ctaOrder": "Order now",
+    "ctaContact": "Contact us",
+    "disclaimer": "* Final price confirmed after free on-site measurement."
+  },
+  "services": {
+    "eyebrow": "Our services",
+    "title": "Ceiling solutions for every space",
+    "items": {
+      "stretch": { "name": "Stretch ceilings", "desc": "Matte, satin or gloss film installed in one day, dust-free." },
+      "suspended": { "name": "Suspended ceilings", "desc": "Modular grid and gypsum systems for offices and retail." },
+      "acoustic": { "name": "Acoustic ceilings", "desc": "Wood, fabric and mineral panels reducing noise up to 70%." },
+      "lighting": { "name": "Lighting integration", "desc": "Recessed spots, linear LEDs, cove and starry-sky lighting." },
+      "repair": { "name": "Repair & replacement", "desc": "Water damage, sagging, cracks — restored or replaced fast." },
+      "multilevel": { "name": "Multi-level ceilings", "desc": "Designer multi-tier compositions with hidden lighting." }
+    },
+    "select": "Select this service"
+  },
+  "advantages": {
+    "eyebrow": "Why Laeproff",
+    "title": "Built on craft. Backed by warranty.",
+    "items": {
+      "experience": { "title": "12+ years", "desc": "Hundreds of residential and commercial projects delivered across Estonia." },
+      "warranty": { "title": "10-year warranty", "desc": "On every material and installation we provide." },
+      "speed": { "title": "Installed in 1 day", "desc": "Most apartments completed in a single working day, dust-free." },
+      "fixed": { "title": "Fixed-price quote", "desc": "Free on-site measurement and a written estimate within 48 hours." }
+    }
+  },
+  "portfolio": {
+    "eyebrow": "Selected projects",
+    "title": "A portfolio that speaks in surfaces",
+    "cta": "Start your project"
+  },
+  "how": {
+    "eyebrow": "Process",
+    "title": "From inquiry to finished ceiling",
+    "steps": {
+      "1": { "t": "Inquiry", "d": "Send us your details and rough specs." },
+      "2": { "t": "Consultation", "d": "We discuss materials, lighting and design." },
+      "3": { "t": "Measurement", "d": "Free on-site measurement and planning." },
+      "4": { "t": "Installation", "d": "Clean, fast installation by certified team." },
+      "5": { "t": "Completion", "d": "Final inspection and 10-year warranty handover." }
+    }
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Everything you want to know",
+    "items": {
+      "price": { "q": "How is the price calculated?", "a": "Pricing starts from 25 €/m² depending on ceiling type, plus 10 € per lamp and 5 € per pipe/wiring unit. Use the calculator above for an instant estimate." },
+      "time": { "q": "How long does installation take?", "a": "A standard apartment ceiling is installed in a single working day. Larger commercial projects are scheduled in stages." },
+      "materials": { "q": "What materials do you use?", "a": "Premium European PVC and fabric stretch films, certified gypsum boards, mineral and wood acoustic panels." },
+      "warranty": { "q": "Is there a warranty?", "a": "Yes — 10 years on materials and installation, with full documentation." },
+      "process": { "q": "Is the installation messy?", "a": "No. We use dust-free tools and protective covers, so your furniture stays in place." }
+    }
+  },
+  "reviews": {
+    "eyebrow": "Reviews",
+    "title": "Trusted by homeowners and businesses",
+    "items": {
+      "1": { "name": "Mari T.", "role": "Homeowner, Tallinn", "text": "Beautiful matte stretch ceiling with linear LEDs. Done in a single day, zero mess." },
+      "2": { "name": "Andres K.", "role": "Office manager", "text": "Acoustic ceiling transformed our open office — meetings are finally quiet." },
+      "3": { "name": "Elena P.", "role": "Interior designer", "text": "My go-to ceiling team. Always on time, always perfect finish." }
+    }
+  },
+  "contact": {
+    "eyebrow": "Get in touch",
+    "title": "Free consultation",
+    "subtitle": "Tell us about your project. We reply within 1 business hour.",
+    "name": "Full name",
+    "phone": "Phone",
+    "email": "Email",
+    "message": "Message",
+    "messagePh": "Tell us about your project, ceiling type, area...",
+    "submit": "Get consultation",
+    "sending": "Sending...",
+    "success": "Thank you! We'll call you within 1 business hour.",
+    "address": "Tallinn, Estonia",
+    "hours": "Mon–Sat 9:00–19:00",
+    "consent": "By submitting you agree to be contacted by Laeproff."
+  },
+  "footer": {
+    "tagline": "Premium ceiling installation across Estonia.",
+    "rights": "All rights reserved."
+  },
+  "calcPrefill": "— Calculator estimate —\nCeiling type: {{type}}\nArea: {{area}} m²\nLamps: {{lamps}}\nPipes: {{pipes}}\nEstimated price: from {{price}} €\n\n"
+}

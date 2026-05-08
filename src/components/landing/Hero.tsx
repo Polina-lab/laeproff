@@ -1,63 +1,56 @@
 import heroImg from "@/assets/hero-ceiling.jpg";
+import logo from "@/assets/logo-laeproff.png";
 import { Button } from "@/components/ui/button";
-import { ArrowRight, Phone } from "lucide-react";
+import { ArrowRight } from "lucide-react";
+import { useTranslation } from "react-i18next";
+import Calculator from "./Calculator";
 
 const Hero = () => {
+  const { t } = useTranslation();
+
   return (
-    <section id="home" className="relative min-h-[92vh] flex items-center overflow-hidden">
+    <section id="home" className="relative overflow-hidden border-b border-border">
       <img
         src={heroImg}
-        alt="Modern interior with integrated linear LED ceiling lighting"
+        alt="Modern ceiling with cyan LED lighting"
         width={1920}
-        height={1080}
-        className="absolute inset-0 w-full h-full object-cover"
+        height={1280}
+        className="absolute inset-0 w-full h-full object-cover opacity-50"
       />
       <div className="absolute inset-0 gradient-hero" />
-      <div className="absolute inset-0 bg-background/40" />
+      <div className="absolute inset-0 bg-background/30" />
 
-      <div className="relative container-px max-w-7xl mx-auto py-32 w-full">
-        <div className="max-w-3xl">
-          <span className="inline-flex items-center gap-2 text-xs uppercase tracking-[0.2em] text-primary font-medium mb-6 reveal">
-            <span className="h-px w-10 bg-primary" /> Laeproff · Ceiling Specialists
-          </span>
-          <h1 className="text-5xl md:text-7xl font-bold leading-[1.05] mb-6 reveal">
-            Professional Ceiling Solutions
-            <span className="block text-gradient-ember">for Modern Interiors</span>
-          </h1>
-          <p className="text-lg md:text-xl text-muted-foreground max-w-xl mb-10 reveal">
-            Stretch, suspended, acoustic and lit ceilings — engineered with precision,
-            installed by experts, finished to perfection.
-          </p>
-          <div className="flex flex-wrap gap-4 reveal">
-            <Button asChild size="lg" className="gradient-ember text-primary-foreground hover:opacity-90 shadow-[var(--shadow-ember)] h-14 px-8 text-base">
-              <a href="#book">Book a Consultation <ArrowRight className="ml-2 h-4 w-4" /></a>
-            </Button>
-            <Button asChild size="lg" variant="outline" className="h-14 px-8 text-base border-foreground/20 bg-background/30 backdrop-blur hover:bg-background/50">
-              <a href="#book">Get a Free Estimate</a>
-            </Button>
+      <div className="relative container-px max-w-7xl mx-auto pt-16 md:pt-24 pb-20 md:pb-28">
+        <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
+          <div>
+            <img src={logo} alt="Laeproff" className="h-10 md:h-14 w-auto mb-8 reveal" />
+            <span className="inline-flex items-center gap-2 text-xs uppercase tracking-[0.25em] text-primary font-medium mb-5 reveal">
+              <span className="h-px w-10 bg-primary" /> {t("hero.eyebrow")}
+            </span>
+            <h1 className="text-4xl md:text-6xl font-bold leading-[1.05] mb-5 reveal">
+              {t("hero.title")}{" "}
+              <span className="block text-gradient-cyan">{t("hero.titleAccent")}</span>
+            </h1>
+            <p className="text-base md:text-lg text-muted-foreground max-w-xl mb-8 reveal">
+              {t("hero.subtitle")}
+            </p>
+            <div className="flex flex-wrap gap-3 reveal">
+              <Button asChild size="lg" className="bg-primary text-primary-foreground hover:bg-primary/90 glow-cyan h-12 px-7 font-medium">
+                <a href="#contact">
+                  {t("hero.ctaPrimary")} <ArrowRight className="ml-2 h-4 w-4" />
+                </a>
+              </Button>
+              <Button asChild size="lg" variant="outline" className="h-12 px-7 border-foreground/20 bg-background/30 backdrop-blur hover:bg-background/60">
+                <a href="#portfolio">{t("hero.ctaSecondary")}</a>
+              </Button>
+            </div>
           </div>
 
-          <div className="mt-16 grid grid-cols-3 gap-8 max-w-xl reveal">
-            {[
-              { k: "12+", v: "Years experience" },
-              { k: "850+", v: "Projects delivered" },
-              { k: "10y", v: "Material warranty" },
-            ].map((s) => (
-              <div key={s.v}>
-                <div className="text-3xl md:text-4xl font-bold text-foreground">{s.k}</div>
-                <div className="text-xs uppercase tracking-wider text-muted-foreground mt-1">{s.v}</div>
-              </div>
-            ))}
+          <div className="reveal">
+            <Calculator />
           </div>
         </div>
       </div>
-
-      <a
-        href="tel:+10000000000"
-        className="hidden md:flex absolute bottom-8 right-8 items-center gap-2 text-sm text-muted-foreground hover:text-primary transition-colors"
-      >
-        <Phone className="h-4 w-4" /> +1 (000) 000-0000
-      </a>
     </section>
   );
 };
