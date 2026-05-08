@@ -1,0 +1,124 @@
+{
+  "topbar": {
+    "hours": "E–L 9:00–19:00",
+    "phone": "+372 555 0000",
+    "email": "info@laeproff.ee"
+  },
+  "nav": {
+    "calculator": "Kalkulaator",
+    "about": "Meist",
+    "advantages": "Eelised",
+    "services": "Teenused",
+    "portfolio": "Portfoolio",
+    "how": "Kuidas töötame",
+    "faq": "KKK",
+    "reviews": "Arvustused",
+    "contact": "Kontakt",
+    "cta": "Tasuta konsultatsioon"
+  },
+  "hero": {
+    "eyebrow": "Laespetsialistid · Eesti",
+    "title": "Premium laed,",
+    "titleAccent": "viimistletud täiuslikult.",
+    "subtitle": "Pingul-, ripp-, akustilised ja valgustusega laed. Arvuta hind sekunditega — paigaldame mõne päevaga.",
+    "ctaPrimary": "Tasuta konsultatsioon",
+    "ctaSecondary": "Vaata töid"
+  },
+  "calc": {
+    "title": "Kiire hinnakalkulaator",
+    "subtitle": "Hinda lae paigaldust sekunditega.",
+    "area": "Laepindala (m²)",
+    "type": "Lae tüüp",
+    "lamps": "Lampide arv",
+    "pipes": "Torude arv",
+    "estimate": "Hinnanguline hind",
+    "from": "alates",
+    "breakdown": "Arvutuse jaotus",
+    "base": "Baas ({{area}} m² × {{rate}} €/m²)",
+    "lampsLine": "Lambid ({{count}} × 10 €)",
+    "pipesLine": "Torud ({{count}} × 5 €)",
+    "ctaOrder": "Telli kohe",
+    "ctaContact": "Võta ühendust",
+    "disclaimer": "* Lõplik hind kinnitatakse pärast tasuta mõõtmist."
+  },
+  "services": {
+    "eyebrow": "Meie teenused",
+    "title": "Lahendused igale ruumile",
+    "items": {
+      "stretch": { "name": "Pingullaed", "desc": "Matt, satiin või läige — paigaldus ühe päevaga, tolmuvaba." },
+      "suspended": { "name": "Ripplaed", "desc": "Modulaarne süsteem ja kips kontoritele ja kauplustele." },
+      "acoustic": { "name": "Akustilised laed", "desc": "Puit-, kangas- ja mineraalpaneelid kuni 70% mürasummutusega." },
+      "lighting": { "name": "Valgustuse integreerimine", "desc": "Süvistatud, lineaarsed LED-id, tähistaevas." },
+      "repair": { "name": "Remont ja vahetus", "desc": "Veekahjustused, mõrad, vananenud süsteemid — kiiresti korda." },
+      "multilevel": { "name": "Mitmetasandilised laed", "desc": "Disainerlikud mitmetasandilised lahendused peidetud valgustusega." }
+    },
+    "select": "Vali see teenus"
+  },
+  "advantages": {
+    "eyebrow": "Miks Laeproff",
+    "title": "Käsitöö. Garantiiga.",
+    "items": {
+      "experience": { "title": "12+ aastat", "desc": "Sajad kodu- ja äriprojektid üle Eesti." },
+      "warranty": { "title": "10-aastane garantii", "desc": "Igale materjalile ja paigaldusele." },
+      "speed": { "title": "Paigaldus 1 päevaga", "desc": "Enamik kortereid valmib ühe tööpäevaga, tolmuvabalt." },
+      "fixed": { "title": "Fikseeritud hind", "desc": "Tasuta mõõtmine ja kirjalik pakkumine 48 tunniga." }
+    }
+  },
+  "portfolio": {
+    "eyebrow": "Valitud projektid",
+    "title": "Portfoolio, mis räägib pindade keeles",
+    "cta": "Alusta projekti"
+  },
+  "how": {
+    "eyebrow": "Protsess",
+    "title": "Päringust valmis laeni",
+    "steps": {
+      "1": { "t": "Päring", "d": "Saada meile oma projekti andmed." },
+      "2": { "t": "Konsultatsioon", "d": "Arutame materjalid, valgustuse ja disaini." },
+      "3": { "t": "Mõõtmine", "d": "Tasuta mõõtmine ja planeerimine." },
+      "4": { "t": "Paigaldus", "d": "Puhas ja kiire paigaldus." },
+      "5": { "t": "Üleandmine", "d": "Lõppülevaatus ja 10-aastane garantii." }
+    }
+  },
+  "faq": {
+    "eyebrow": "KKK",
+    "title": "Kõik, mida tahad teada",
+    "items": {
+      "price": { "q": "Kuidas hind kujuneb?", "a": "Hind algab 25 €/m² sõltuvalt lae tüübist, lisaks 10 € lambi kohta ja 5 € toru/juhtmestiku ühiku kohta." },
+      "time": { "q": "Kui kaua paigaldus kestab?", "a": "Tavaline korterilage paigaldatakse ühe tööpäevaga." },
+      "materials": { "q": "Milliseid materjale kasutate?", "a": "Premium Euroopa PVC ja kangas, sertifitseeritud kips, akustilised paneelid." },
+      "warranty": { "q": "Kas on garantii?", "a": "Jah — 10 aastat materjalile ja paigaldusele." },
+      "process": { "q": "Kas paigaldus on sodi?", "a": "Ei. Kasutame tolmuvaba tööriistu ja katteid." }
+    }
+  },
+  "reviews": {
+    "eyebrow": "Arvustused",
+    "title": "Usaldatud koduomanike ja ettevõtete poolt",
+    "items": {
+      "1": { "name": "Mari T.", "role": "Koduomanik, Tallinn", "text": "Imeline matt pingullage LED-valgustusega. Valmis ühe päevaga." },
+      "2": { "name": "Andres K.", "role": "Kontorijuht", "text": "Akustiline lagi muutis kontori — koosolekud on lõpuks vaiksed." },
+      "3": { "name": "Elena P.", "role": "Sisearhitekt", "text": "Minu lemmik laetiim. Alati õigeks ajaks ja täiuslik viimistlus." }
+    }
+  },
+  "contact": {
+    "eyebrow": "Võta ühendust",
+    "title": "Tasuta konsultatsioon",
+    "subtitle": "Räägi oma projektist. Vastame 1 tööajatunni jooksul.",
+    "name": "Täisnimi",
+    "phone": "Telefon",
+    "email": "E-post",
+    "message": "Sõnum",
+    "messagePh": "Räägi projektist, lae tüübist, pindalast...",
+    "submit": "Saada päring",
+    "sending": "Saadan...",
+    "success": "Aitäh! Helistame 1 tööajatunni jooksul.",
+    "address": "Tallinn, Eesti",
+    "hours": "E–L 9:00–19:00",
+    "consent": "Saates nõustud, et Laeproff võtab teiega ühendust."
+  },
+  "footer": {
+    "tagline": "Premium laepaigaldus üle Eesti.",
+    "rights": "Kõik õigused kaitstud."
+  },
+  "calcPrefill": "— Kalkulaatori hinnang —\nLae tüüp: {{type}}\nPindala: {{area}} m²\nLambid: {{lamps}}\nTorud: {{pipes}}\nHinnanguline hind: alates {{price}} €\n\n"
+}
