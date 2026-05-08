@@ -4,52 +4,52 @@ import p3 from "@/assets/portfolio-3.jpg";
 import p4 from "@/assets/portfolio-4.jpg";
 import p5 from "@/assets/portfolio-5.jpg";
 import p6 from "@/assets/portfolio-6.jpg";
-import { Button } from "@/components/ui/button";
+import { useTranslation } from "react-i18next";
+import { useLead } from "@/context/LeadContext";
 
 const items = [
-  { img: p1, title: "Penthouse Living Room", tag: "Stretch · Recessed lighting", span: "lg:col-span-2 lg:row-span-2" },
-  { img: p3, title: "Hospitality Lounge", tag: "Acoustic · Linear LED" },
-  { img: p4, title: "Master Bedroom", tag: "Starry sky · Fiber optics" },
-  { img: p2, title: "Corporate Office", tag: "Wood acoustic panels" },
-  { img: p5, title: "Hotel Lobby", tag: "Multi-level gypsum · Cove lights" },
-  { img: p6, title: "On-Site Installation", tag: "Behind the scenes" },
+  { img: p1, key: "stretch", span: "md:col-span-2 md:row-span-2" },
+  { img: p3, key: "acoustic" },
+  { img: p4, key: "lighting" },
+  { img: p2, key: "suspended" },
+  { img: p5, key: "multilevel" },
+  { img: p6, key: "repair" },
 ];
 
 const Portfolio = () => {
+  const { t } = useTranslation();
+  const { prefillAndScroll } = useLead();
+
   return (
-    <section id="portfolio" className="py-24 md:py-32 bg-secondary/30 border-y border-border">
+    <section id="portfolio" className="py-20 md:py-28 border-b border-border">
       <div className="container-px max-w-7xl mx-auto">
-        <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-6 mb-16 reveal">
+        <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-6 mb-12 reveal">
           <div>
-            <span className="text-xs uppercase tracking-[0.2em] text-primary">Recent Work</span>
-            <h2 className="text-4xl md:text-5xl font-bold mt-4">A portfolio that speaks in surfaces</h2>
+            <span className="text-xs uppercase tracking-[0.25em] text-primary font-medium">{t("portfolio.eyebrow")}</span>
+            <h2 className="text-3xl md:text-5xl font-bold mt-4">{t("portfolio.title")}</h2>
           </div>
-          <Button asChild variant="outline" className="border-foreground/20 hover:bg-card">
-            <a href="#book">Start your project →</a>
-          </Button>
         </div>
 
-        <div className="grid grid-cols-2 lg:grid-cols-4 gap-3 md:gap-4 auto-rows-[200px] md:auto-rows-[260px]">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-3 md:gap-4 auto-rows-[180px] md:auto-rows-[240px]">
           {items.map((it, i) => (
-            <figure
+            <button
               key={i}
-              className={`reveal relative overflow-hidden rounded-xl group bg-card ${it.span ?? ""}`}
-              style={{ transitionDelay: `${i * 60}ms` }}
+              onClick={() => prefillAndScroll({ service: it.key })}
+              className={`reveal relative overflow-hidden rounded-xl group bg-card border border-border hover:border-primary/60 transition-colors ${it.span ?? ""}`}
+              style={{ transitionDelay: `${i * 50}ms` }}
             >
               <img
                 src={it.img}
-                alt={it.title}
+                alt={t(`services.items.${it.key}.name`)}
                 loading="lazy"
-                width={1024}
-                height={1024}
                 className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-background via-background/20 to-transparent opacity-90" />
-              <figcaption className="absolute bottom-0 left-0 right-0 p-4 md:p-5">
-                <div className="text-xs text-primary uppercase tracking-wider mb-1">{it.tag}</div>
-                <div className="font-semibold text-foreground">{it.title}</div>
+              <div className="absolute inset-0 bg-gradient-to-t from-background via-background/30 to-transparent opacity-90" />
+              <figcaption className="absolute bottom-0 left-0 right-0 p-4 text-left">
+                <div className="text-[10px] text-primary uppercase tracking-wider mb-1">{t(`services.items.${it.key}.name`)}</div>
+                <div className="text-sm text-foreground/90">{t(`services.items.${it.key}.desc`)}</div>
               </figcaption>
-            </figure>
+            </button>
           ))}
         </div>
       </div>

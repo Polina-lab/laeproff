@@ -1,51 +1,70 @@
-import { Instagram, Facebook, Linkedin } from "lucide-react";
+import { useTranslation } from "react-i18next";
+import { Phone, Mail, MapPin, Facebook, Instagram } from "lucide-react";
+import logo from "@/assets/logo-laeproff.png";
 
 const Footer = () => {
+  const { t } = useTranslation();
+  const SERVICE_KEYS = ["stretch", "suspended", "acoustic", "lighting", "repair", "multilevel"];
+  const NAV = [
+    { href: "#calculator", label: t("nav.calculator") },
+    { href: "#services", label: t("nav.services") },
+    { href: "#portfolio", label: t("nav.portfolio") },
+    { href: "#how", label: t("nav.how") },
+    { href: "#faq", label: t("nav.faq") },
+    { href: "#contact", label: t("nav.contact") },
+  ];
+
   return (
-    <footer className="bg-background border-t border-border">
-      <div className="container-px max-w-7xl mx-auto py-16 grid md:grid-cols-4 gap-10">
-        <div className="md:col-span-2">
-          <div className="flex items-center gap-2 font-bold text-lg mb-4">
-            <span className="h-7 w-7 rounded-md gradient-ember flex items-center justify-center text-primary-foreground text-sm">L</span>
-            Laeproff
-          </div>
-          <p className="text-sm text-muted-foreground max-w-sm">
-            Ceiling installation and finishing for residential, hospitality and commercial spaces. Engineered. Designed. Delivered.
-          </p>
-          <div className="flex gap-3 mt-6">
-            {[Instagram, Facebook, Linkedin].map((Ic, i) => (
-              <a key={i} href="#" className="h-9 w-9 rounded-lg bg-card border border-border flex items-center justify-center hover:border-primary hover:text-primary transition-colors">
-                <Ic className="h-4 w-4" />
-              </a>
-            ))}
+    <footer className="bg-[hsl(0_0%_3%)] border-t border-border">
+      <div className="container-px max-w-7xl mx-auto py-14 grid md:grid-cols-4 gap-10">
+        <div className="md:col-span-1">
+          <img src={logo} alt="Laeproff" className="h-8 w-auto mb-4" />
+          <p className="text-sm text-muted-foreground">{t("footer.tagline")}</p>
+          <div className="flex gap-3 mt-5">
+            <a href="#" aria-label="Facebook" className="h-9 w-9 rounded-md bg-card border border-border flex items-center justify-center hover:border-primary hover:text-primary transition-colors">
+              <Facebook className="h-4 w-4" />
+            </a>
+            <a href="#" aria-label="Instagram" className="h-9 w-9 rounded-md bg-card border border-border flex items-center justify-center hover:border-primary hover:text-primary transition-colors">
+              <Instagram className="h-4 w-4" />
+            </a>
           </div>
         </div>
+
         <div>
-          <div className="text-sm font-semibold mb-4">Services</div>
+          <h4 className="text-sm font-semibold mb-4 uppercase tracking-wider">{t("nav.services")}</h4>
           <ul className="space-y-2 text-sm text-muted-foreground">
-            <li>Stretch Ceilings</li>
-            <li>Suspended Ceilings</li>
-            <li>Acoustic Solutions</li>
-            <li>Lighting Integration</li>
-            <li>Repair & Replacement</li>
+            {SERVICE_KEYS.map((k) => (
+              <li key={k}>
+                <a href="#services" className="hover:text-primary transition-colors">{t(`services.items.${k}.name`)}</a>
+              </li>
+            ))}
           </ul>
         </div>
+
         <div>
-          <div className="text-sm font-semibold mb-4">Contact</div>
+          <h4 className="text-sm font-semibold mb-4 uppercase tracking-wider">Menu</h4>
           <ul className="space-y-2 text-sm text-muted-foreground">
-            <li>+1 (000) 000-0000</li>
-            <li>hello@laeproff.com</li>
-            <li>Mon–Sat · 8:00–19:00</li>
+            {NAV.map((l) => (
+              <li key={l.href}>
+                <a href={l.href} className="hover:text-primary transition-colors">{l.label}</a>
+              </li>
+            ))}
+          </ul>
+        </div>
+
+        <div>
+          <h4 className="text-sm font-semibold mb-4 uppercase tracking-wider">{t("nav.contact")}</h4>
+          <ul className="space-y-3 text-sm text-muted-foreground">
+            <li className="flex items-start gap-2"><Phone className="h-4 w-4 text-primary mt-0.5" /> {t("topbar.phone")}</li>
+            <li className="flex items-start gap-2"><Mail className="h-4 w-4 text-primary mt-0.5" /> {t("topbar.email")}</li>
+            <li className="flex items-start gap-2"><MapPin className="h-4 w-4 text-primary mt-0.5" /> {t("contact.address")}</li>
           </ul>
         </div>
       </div>
       <div className="border-t border-border">
-        <div className="container-px max-w-7xl mx-auto py-6 flex flex-col md:flex-row items-center justify-between gap-3 text-xs text-muted-foreground">
-          <div>© {new Date().getFullYear()} Laeproff. All rights reserved.</div>
-          <div className="flex gap-6">
-            <a href="#" className="hover:text-foreground">Privacy</a>
-            <a href="#" className="hover:text-foreground">Terms</a>
-          </div>
+        <div className="container-px max-w-7xl mx-auto py-5 text-xs text-muted-foreground flex flex-col md:flex-row gap-2 justify-between">
+          <span>© {new Date().getFullYear()} Laeproff. {t("footer.rights")}</span>
+          <span>{t("topbar.hours")}</span>
         </div>
       </div>
     </footer>
