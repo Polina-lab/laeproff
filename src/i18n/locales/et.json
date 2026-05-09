@@ -41,6 +41,14 @@
     "ctaContact": "Võta ühendust",
     "disclaimer": "* Lõplik hind kinnitatakse pärast tasuta mõõtmist."
   },
+  "about": {
+    "title": "12 aastat kogemust.\nÜks eesmärk: ideaalne lagi.",
+    "description": "Laeproff on Eesti lagede spetsialist, kes keskendub kvaliteetsetele ping-, rip-, akustilistele ja valgustatud lagedele. Projekteerime, tarnime ja paigaldame — hoides iga projekti õigeaegse, eelarves ja tolmuvabana.",
+    "projects": "projekti",
+    "years": "aastat",
+    "warranty": "garantii",
+    "y": "a"
+  },
   "services": {
     "eyebrow": "Meie teenused",
     "title": "Lahendused igale ruumile",

@@ -1,6 +1,6 @@
 import { useTranslation } from "react-i18next";
 import { Phone, Mail, MapPin, Facebook, Instagram } from "lucide-react";
-import logo from "@/assets/logo-laeproff.png";
+import logo from "@/assets/logo_laeproff_white.svg";
 
 const Footer = () => {
   const { t } = useTranslation();

@@ -1,0 +1,549 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 5460 2745.3">
+  <!-- Generator: Adobe Illustrator 29.8.2, SVG Export Plug-In . SVG Version: 2.1.1 Build 3)  -->
+  <defs>
+    <style>
+      .st0 {
+        fill: url(#radial-gradient2);
+      }
+
+      .st0, .st1, .st2, .st3, .st4, .st5, .st6, .st7, .st8, .st9, .st10, .st11, .st12, .st13 {
+        fill-rule: evenodd;
+      }
+
+      .st0, .st2, .st3, .st7, .st10, .st12 {
+        mix-blend-mode: multiply;
+      }
+
+      .st1 {
+        fill: url(#New_Gradient_Swatch_copy);
+      }
+
+      .st14 {
+        mask: url(#mask-15);
+      }
+
+      .st15 {
+        mask: url(#mask-5);
+      }
+
+      .st16 {
+        mask: url(#mask-13);
+      }
+
+      .st17 {
+        filter: url(#luminosity-noclip14);
+      }
+
+      .st2 {
+        fill: url(#radial-gradient1);
+      }
+
+      .st3 {
+        fill: url(#radial-gradient3);
+      }
+
+      .st18 {
+        fill: url(#New_Gradient_Swatch_copy1);
+      }
+
+      .st19 {
+        mask: url(#mask-1);
+      }
+
+      .st20 {
+        fill: url(#New_Gradient_Swatch_copy4);
+      }
+
+      .st20, .st21, .st22, .st23, .st24, .st25, .st26, .st27 {
+        display: none;
+      }
+
+      .st4 {
+        fill: url(#New_Gradient_Swatch_copy_22);
+      }
+
+      .st4, .st5, .st21, .st28, .st6, .st8, .st11, .st13 {
+        mix-blend-mode: screen;
+      }
+
+      .st5 {
+        fill: url(#New_Gradient_Swatch_copy_23);
+      }
+
+      .st21 {
+        opacity: .2;
+      }
+
+      .st29 {
+        fill: url(#New_Gradient_Swatch_copy_27);
+      }
+
+      .st30 {
+        mask: url(#mask-10);
+      }
+
+      .st31 {
+        mask: url(#mask-6);
+      }
+
+      .st32 {
+        mask: url(#mask-7);
+      }
+
+      .st28, .st33 {
+        opacity: .5;
+      }
+
+      .st34 {
+        filter: url(#luminosity-noclip6);
+      }
+
+      .st35 {
+        fill: url(#New_Gradient_Swatch_copy_29);
+      }
+
+      .st6 {
+        fill: url(#New_Gradient_Swatch_copy_24);
+      }
+
+      .st36 {
+        mask: url(#mask);
+      }
+
+      .st37 {
+        fill: url(#linear-gradient1);
+      }
+
+      .st22 {
+        fill: url(#New_Gradient_Swatch_copy7);
+      }
+
+      .st38 {
+        filter: url(#luminosity-noclip10);
+      }
+
+      .st23 {
+        fill: url(#New_Gradient_Swatch_copy5);
+      }
+
+      .st39 {
+        fill: url(#New_Gradient_Swatch_copy_212);
+      }
+
+      .st40 {
+        mask: url(#mask-8);
+      }
+
+      .st41 {
+        mask: url(#mask-2);
+      }
+
+      .st7 {
+        fill: url(#radial-gradient4);
+      }
+
+      .st42 {
+        mask: url(#mask-9);
+      }
+
+      .st43 {
+        fill: url(#New_Gradient_Swatch_copy_211);
+      }
+
+      .st44 {
+        fill: #fcf9f3;
+        filter: url(#outer-glow-1);
+      }
+
+      .st24 {
+        fill: url(#New_Gradient_Swatch_copy2);
+      }
+
+      .st45 {
+        isolation: isolate;
+      }
+
+      .st46 {
+        fill: url(#New_Gradient_Swatch_copy_210);
+      }
+
+      .st8 {
+        fill: url(#New_Gradient_Swatch_copy_2);
+      }
+
+      .st47 {
+        filter: url(#luminosity-noclip13);
+      }
+
+      .st9 {
+        fill: url(#New_Gradient_Swatch_copy_26);
+      }
+
+      .st25 {
+        fill: url(#New_Gradient_Swatch_copy3);
+      }
+
+      .st10 {
+        fill: url(#radial-gradient);
+      }
+
+      .st48 {
+        opacity: .2;
+      }
+
+      .st11 {
+        fill: url(#New_Gradient_Swatch_copy_25);
+      }
+
+      .st49 {
+        filter: url(#luminosity-noclip15);
+      }
+
+      .st50 {
+        fill: url(#New_Gradient_Swatch_copy_213);
+      }
+
+      .st51 {
+        filter: url(#luminosity-noclip2);
+      }
+
+      .st52 {
+        filter: url(#luminosity-noclip8);
+      }
+
+      .st12 {
+        fill: url(#radial-gradient5);
+      }
+
+      .st53 {
+        mask: url(#mask-11);
+      }
+
+      .st54 {
+        filter: url(#luminosity-noclip12);
+      }
+
+      .st55 {
+        mask: url(#mask-12);
+      }
+
+      .st56 {
+        filter: url(#luminosity-noclip4);
+      }
+
+      .st57 {
+        mask: url(#mask-4);
+      }
+
+      .st58 {
+        fill: url(#New_Gradient_Swatch_copy_28);
+      }
+
+      .st59 {
+        mask: url(#mask-14);
+      }
+
+      .st60 {
+        fill: url(#linear-gradient);
+      }
+
+      .st13 {
+        fill: url(#New_Gradient_Swatch_copy_21);
+      }
+
+      .st27 {
+        fill: url(#New_Gradient_Swatch_copy6);
+      }
+
+      .st61 {
+        mask: url(#mask-3);
+      }
+
+      .st62 {
+        filter: url(#luminosity-noclip);
+      }
+    </style>
+    <filter id="luminosity-noclip" x="3054.1" y="1280.3" width="1372.4" height="10.7" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <filter id="luminosity-noclip1" x="3054.1" y="-9116.3" width="1372.4" height="32766" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <mask id="mask-1" x="3054.1" y="-9116.3" width="1372.4" height="32766" maskUnits="userSpaceOnUse"/>
+    <radialGradient id="radial-gradient" cx="6647.3" cy="53175.4" fx="6647.3" fy="53175.4" r="1067.8" gradientTransform="translate(-555.2 1019.8) scale(.6 0)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset=".6" stop-color="#686868"/>
+      <stop offset="1" stop-color="#000"/>
+    </radialGradient>
+    <mask id="mask" x="3054.1" y="1280.3" width="1372.4" height="10.7" maskUnits="userSpaceOnUse">
+      <g class="st62">
+        <g class="st19">
+          <path class="st10" d="M4426.6,1285.6c0,3-307.2,5.4-686.2,5.4s-686.2-2.4-686.2-5.4,307.2-5.4,686.2-5.4,686.2,2.4,686.2,5.4Z"/>
+        </g>
+      </g>
+    </mask>
+    <radialGradient id="New_Gradient_Swatch_copy_2" data-name="New Gradient Swatch copy 2" cx="6647.3" cy="53175.4" fx="6647.3" fy="53175.4" r="1067.8" gradientTransform="translate(-555.2 1019.8) scale(.6 0)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="aqua"/>
+      <stop offset="0" stop-color="#2bffff"/>
+      <stop offset=".2" stop-color="#62ffff"/>
+      <stop offset=".4" stop-color="#92ffff"/>
+      <stop offset=".5" stop-color="#b9ffff"/>
+      <stop offset=".6" stop-color="#d7ffff"/>
+      <stop offset=".8" stop-color="#edffff"/>
+      <stop offset=".9" stop-color="#faffff"/>
+      <stop offset="1" stop-color="#fff"/>
+    </radialGradient>
+    <filter id="luminosity-noclip2" x="3568.8" y="1277.2" width="343.1" height="18.3" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <filter id="luminosity-noclip3" x="3568.8" y="-9116.3" width="343.1" height="32766" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <mask id="mask-3" x="3568.8" y="-9116.3" width="343.1" height="32766" maskUnits="userSpaceOnUse"/>
+    <radialGradient id="radial-gradient1" cx="16579.6" cy="33032.5" fx="16579.6" fy="33032.5" r="1063.9" gradientTransform="translate(1062.8 1002.3) scale(.2 0)" xlink:href="#radial-gradient"/>
+    <mask id="mask-2" x="3568.8" y="1277.2" width="343.1" height="18.3" maskUnits="userSpaceOnUse">
+      <g class="st51">
+        <g class="st61">
+          <path class="st2" d="M3911.9,1286.4c0,5.1-76.8,9.2-171.6,9.2s-171.6-4.1-171.6-9.2,76.8-9.2,171.6-9.2,171.6,4.1,171.6,9.2Z"/>
+        </g>
+      </g>
+    </mask>
+    <radialGradient id="New_Gradient_Swatch_copy_21" data-name="New Gradient Swatch copy 2" cx="16579.6" cy="33032.5" fx="16579.6" fy="33032.5" r="1063.9" gradientTransform="translate(1062.8 1002.3) scale(.2 0)" xlink:href="#New_Gradient_Swatch_copy_2"/>
+    <filter id="luminosity-noclip4" x="3660.5" y="1272.3" width="159.8" height="26.7" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <filter id="luminosity-noclip5" x="3660.5" y="-9116.3" width="159.8" height="32766" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <mask id="mask-5" x="3660.5" y="-9116.3" width="159.8" height="32766" maskUnits="userSpaceOnUse"/>
+    <radialGradient id="radial-gradient2" cx="31803.3" cy="24319.9" fx="31803.3" fy="24319.9" r="1064.4" gradientTransform="translate(1348.8 981.6) scale(0 0)" xlink:href="#radial-gradient"/>
+    <mask id="mask-4" x="3660.5" y="1272.3" width="159.8" height="26.7" maskUnits="userSpaceOnUse">
+      <g class="st56">
+        <g class="st15">
+          <path class="st0" d="M3820.2,1285.6c0,7.4-35.8,13.3-79.9,13.3s-79.9-6-79.9-13.3,35.8-13.3,79.9-13.3,79.9,6,79.9,13.3Z"/>
+        </g>
+      </g>
+    </mask>
+    <radialGradient id="New_Gradient_Swatch_copy_22" data-name="New Gradient Swatch copy 2" cx="31803.3" cy="24319.9" fx="31803.3" fy="24319.9" r="1064.4" gradientTransform="translate(1348.8 981.6) scale(0 0)" xlink:href="#New_Gradient_Swatch_copy_2"/>
+    <filter id="luminosity-noclip6" x="1396.9" y="897.2" width="447.5" height="10.9" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <filter id="luminosity-noclip7" x="1396.9" y="-9116.3" width="447.5" height="32766" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <mask id="mask-7" x="1396.9" y="-9116.3" width="447.5" height="32766" maskUnits="userSpaceOnUse"/>
+    <radialGradient id="radial-gradient3" cx="6949.4" cy="52849" fx="6949.4" fy="52849" r="1595.5" gradientTransform="translate(645.6 723) scale(.1 0)" xlink:href="#radial-gradient"/>
+    <mask id="mask-6" x="1396.9" y="897.2" width="447.5" height="10.9" maskUnits="userSpaceOnUse">
+      <g class="st34">
+        <g class="st32">
+          <path class="st3" d="M1844.4,902.6c0,3-100.2,5.4-223.8,5.4s-223.8-2.4-223.8-5.4,100.2-5.4,223.8-5.4,223.8,2.4,223.8,5.4Z"/>
+        </g>
+      </g>
+    </mask>
+    <radialGradient id="New_Gradient_Swatch_copy_23" data-name="New Gradient Swatch copy 2" cx="6949.4" cy="52849" fx="6949.4" fy="52849" r="1595.5" gradientTransform="translate(645.6 723) scale(.1 0)" xlink:href="#New_Gradient_Swatch_copy_2"/>
+    <filter id="luminosity-noclip8" x="1564.7" y="894.2" width="111.9" height="18.5" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <filter id="luminosity-noclip9" x="1564.7" y="-9116.3" width="111.9" height="32766" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <mask id="mask-9" x="1564.7" y="-9116.3" width="111.9" height="32766" maskUnits="userSpaceOnUse"/>
+    <radialGradient id="radial-gradient4" cx="17765.5" cy="33165.8" fx="17765.5" fy="33165.8" r="1595.4" gradientTransform="translate(997.1 711.1) scale(0 0)" xlink:href="#radial-gradient"/>
+    <mask id="mask-8" x="1564.7" y="894.2" width="111.9" height="18.5" maskUnits="userSpaceOnUse">
+      <g class="st52">
+        <g class="st42">
+          <path class="st7" d="M1676.6,903.4c0,5.1-25,9.3-55.9,9.3s-55.9-4.1-55.9-9.3,25-9.3,55.9-9.3,55.9,4.1,55.9,9.3Z"/>
+        </g>
+      </g>
+    </mask>
+    <radialGradient id="New_Gradient_Swatch_copy_24" data-name="New Gradient Swatch copy 2" cx="17765.5" cy="33165.8" fx="17765.5" fy="33165.8" r="1595.4" gradientTransform="translate(997.1 711.1) scale(0 0)" xlink:href="#New_Gradient_Swatch_copy_2"/>
+    <filter id="luminosity-noclip10" x="1594.6" y="889.2" width="52.1" height="27" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <filter id="luminosity-noclip11" x="1594.6" y="-9116.3" width="52.1" height="32766" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <mask id="mask-11" x="1594.6" y="-9116.3" width="52.1" height="32766" maskUnits="userSpaceOnUse"/>
+    <radialGradient id="radial-gradient5" cx="34467.7" cy="24486.3" fx="34467.7" fy="24486.3" r="1601.2" gradientTransform="translate(1058.8 697) scale(0)" xlink:href="#radial-gradient"/>
+    <mask id="mask-10" x="1594.6" y="889.2" width="52.1" height="27" maskUnits="userSpaceOnUse">
+      <g class="st38">
+        <g class="st53">
+          <path class="st12" d="M1646.7,902.6c0,7.4-11.7,13.5-26,13.5s-26-6-26-13.5,11.7-13.5,26-13.5,26,6,26,13.5Z"/>
+        </g>
+      </g>
+    </mask>
+    <radialGradient id="New_Gradient_Swatch_copy_25" data-name="New Gradient Swatch copy 2" cx="34467.7" cy="24486.3" fx="34467.7" fy="24486.3" r="1601.2" gradientTransform="translate(1058.8 697) scale(0)" xlink:href="#New_Gradient_Swatch_copy_2"/>
+    <radialGradient id="New_Gradient_Swatch_copy_26" data-name="New Gradient Swatch copy 2" cx="1214.8" cy="1126.2" fx="1214.8" fy="1126.2" r="159.7" gradientTransform="matrix(1,0,0,1,0,0)" xlink:href="#New_Gradient_Swatch_copy_2"/>
+    <radialGradient id="New_Gradient_Swatch_copy_27" data-name="New Gradient Swatch copy 2" cx="2552.4" cy="1126.2" fx="2552.4" fy="1126.2" r="172.7" gradientTransform="matrix(1,0,0,1,0,0)" xlink:href="#New_Gradient_Swatch_copy_2"/>
+    <radialGradient id="New_Gradient_Swatch_copy_28" data-name="New Gradient Swatch copy 2" cx="2998.2" cy="1126.2" fx="2998.2" fy="1126.2" r="172.5" gradientTransform="matrix(1,0,0,1,0,0)" xlink:href="#New_Gradient_Swatch_copy_2"/>
+    <radialGradient id="New_Gradient_Swatch_copy_29" data-name="New Gradient Swatch copy 2" cx="3444.1" cy="1126.2" fx="3444.1" fy="1126.2" r="200.7" gradientTransform="matrix(1,0,0,1,0,0)" xlink:href="#New_Gradient_Swatch_copy_2"/>
+    <radialGradient id="New_Gradient_Swatch_copy_210" data-name="New Gradient Swatch copy 2" cx="1660.6" cy="1126.2" fx="1660.6" fy="1126.2" r="200.8" gradientTransform="matrix(1,0,0,1,0,0)" xlink:href="#New_Gradient_Swatch_copy_2"/>
+    <radialGradient id="New_Gradient_Swatch_copy_211" data-name="New Gradient Swatch copy 2" cx="2106.5" cy="1126.2" fx="2106.5" fy="1126.2" r="170.2" gradientTransform="matrix(1,0,0,1,0,0)" xlink:href="#New_Gradient_Swatch_copy_2"/>
+    <radialGradient id="New_Gradient_Swatch_copy_212" data-name="New Gradient Swatch copy 2" cx="3889.9" cy="1126.2" fx="3889.9" fy="1126.2" r="168.5" gradientTransform="matrix(1,0,0,1,0,0)" xlink:href="#New_Gradient_Swatch_copy_2"/>
+    <radialGradient id="New_Gradient_Swatch_copy_213" data-name="New Gradient Swatch copy 2" cx="4335.8" cy="1126.2" fx="4335.8" fy="1126.2" r="168.5" gradientTransform="matrix(1,0,0,1,0,0)" xlink:href="#New_Gradient_Swatch_copy_2"/>
+    <linearGradient id="New_Gradient_Swatch_copy" data-name="New Gradient Swatch copy" x1="2265.2" y1="1039.1" x2="2569.8" y2="1039.1" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#000"/>
+      <stop offset=".4" stop-color="#050505"/>
+      <stop offset=".9" stop-color="#131313"/>
+      <stop offset="1" stop-color="#171717"/>
+    </linearGradient>
+    <linearGradient id="New_Gradient_Swatch_copy1" data-name="New Gradient Swatch copy" x1="2723.9" x2="3110.3" xlink:href="#New_Gradient_Swatch_copy"/>
+    <linearGradient id="New_Gradient_Swatch_copy2" data-name="New Gradient Swatch copy" x1="2808.6" y1="1096.2" x2="3107.8" y2="1096.2" xlink:href="#New_Gradient_Swatch_copy"/>
+    <linearGradient id="New_Gradient_Swatch_copy3" data-name="New Gradient Swatch copy" x1="3196.4" y1="1096.2" x2="3611.7" y2="1096.2" xlink:href="#New_Gradient_Swatch_copy"/>
+    <linearGradient id="New_Gradient_Swatch_copy4" data-name="New Gradient Swatch copy" x1="1411.5" y1="1096.2" x2="1829.7" y2="1096.2" xlink:href="#New_Gradient_Swatch_copy"/>
+    <linearGradient id="New_Gradient_Swatch_copy5" data-name="New Gradient Swatch copy" x1="1920.7" y1="1096.2" x2="2212.3" y2="1096.2" xlink:href="#New_Gradient_Swatch_copy"/>
+    <linearGradient id="New_Gradient_Swatch_copy6" data-name="New Gradient Swatch copy" x1="3709.2" y1="1096.2" x2="3990.6" y2="1096.2" xlink:href="#New_Gradient_Swatch_copy"/>
+    <linearGradient id="New_Gradient_Swatch_copy7" data-name="New Gradient Swatch copy" x1="4155.1" y1="1096.2" x2="4436.5" y2="1096.2" xlink:href="#New_Gradient_Swatch_copy"/>
+    <filter id="luminosity-noclip12" x="2230" y="677.3" width="909" height="29" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <mask id="mask-12" x="2230" y="677.3" width="909" height="29" maskUnits="userSpaceOnUse">
+      <g class="st54">
+        <image width="909" height="29" transform="translate(2230 677.3)" xlink:href="lp_favicon-1.png"/>
+      </g>
+    </mask>
+    <filter id="luminosity-noclip13" x="2232" y="658.3" width="906" height="52" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <mask id="mask-13" x="2232" y="658.3" width="906" height="52" maskUnits="userSpaceOnUse">
+      <g class="st47">
+        <image width="906" height="52" transform="translate(2232 658.3)" xlink:href="lp_favicon-2.png"/>
+      </g>
+    </mask>
+    <filter id="luminosity-noclip14" x="2212" y="637.3" width="946" height="638" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <mask id="mask-14" x="2212" y="637.3" width="946" height="638" maskUnits="userSpaceOnUse">
+      <g class="st17">
+        <image width="946" height="638" transform="translate(2212 637.3)" xlink:href="lp_favicon-3.png"/>
+      </g>
+    </mask>
+    <linearGradient id="linear-gradient" x1="2684.8" y1="639.4" x2="2684.8" y2="1273.3" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#000"/>
+      <stop offset=".2" stop-color="#030303"/>
+      <stop offset=".3" stop-color="#0d0d0d"/>
+      <stop offset=".4" stop-color="#1e1e1e"/>
+      <stop offset=".5" stop-color="#363636"/>
+      <stop offset=".6" stop-color="#565656"/>
+      <stop offset=".7" stop-color="#7c7c7c"/>
+      <stop offset=".8" stop-color="#aaa"/>
+      <stop offset=".9" stop-color="#ddd"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
+    <filter id="outer-glow-1" x="2425" y="637.3" width="519" height="91" filterUnits="userSpaceOnUse">
+      <feOffset dx="0" dy="0"/>
+      <feGaussianBlur result="blur" stdDeviation="12"/>
+      <feFlood flood-color="#fff7e6" flood-opacity=".9"/>
+      <feComposite in2="blur" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="luminosity-noclip15" x="2419" y="630.3" width="531" height="447" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <mask id="mask-15" x="2419" y="630.3" width="531" height="447" maskUnits="userSpaceOnUse">
+      <g class="st49">
+        <image width="531" height="447" transform="translate(2419 630.3)" xlink:href="lp_favicon-4.png"/>
+      </g>
+    </mask>
+    <linearGradient id="linear-gradient1" x1="2431" y1="853.9" x2="2938.6" y2="853.9" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f2ffff"/>
+      <stop offset="0" stop-color="#f2ffff"/>
+      <stop offset=".2" stop-color="#fcffff"/>
+      <stop offset=".5" stop-color="#fff"/>
+      <stop offset=".8" stop-color="#fcffff"/>
+      <stop offset="1" stop-color="#f4ffff"/>
+      <stop offset="1" stop-color="#f3ffff"/>
+    </linearGradient>
+  </defs>
+  <g class="st45">
+    <g id="foreground_2">
+      <g class="st26">
+        <g class="st36">
+          <path class="st8" d="M4426.6,1285.6c0,3-307.2,5.4-686.2,5.4s-686.2-2.4-686.2-5.4,307.2-5.4,686.2-5.4,686.2,2.4,686.2,5.4Z"/>
+        </g>
+        <g class="st41">
+          <path class="st13" d="M3911.9,1286.4c0,5.1-76.8,9.2-171.6,9.2s-171.6-4.1-171.6-9.2,76.8-9.2,171.6-9.2,171.6,4.1,171.6,9.2Z"/>
+        </g>
+        <g class="st57">
+          <path class="st4" d="M3820.2,1285.6c0,7.4-35.8,13.3-79.9,13.3s-79.9-6-79.9-13.3,35.8-13.3,79.9-13.3,79.9,6,79.9,13.3Z"/>
+        </g>
+      </g>
+      <g class="st26">
+        <g class="st31">
+          <path class="st5" d="M1844.4,902.6c0,3-100.2,5.4-223.8,5.4s-223.8-2.4-223.8-5.4,100.2-5.4,223.8-5.4,223.8,2.4,223.8,5.4Z"/>
+        </g>
+        <g class="st40">
+          <path class="st6" d="M1676.6,903.4c0,5.1-25,9.3-55.9,9.3s-55.9-4.1-55.9-9.3,25-9.3,55.9-9.3,55.9,4.1,55.9,9.3Z"/>
+        </g>
+        <g class="st30">
+          <path class="st11" d="M1646.7,902.6c0,7.4-11.7,13.5-26,13.5s-26-6-26-13.5,11.7-13.5,26-13.5,26,6,26,13.5Z"/>
+        </g>
+      </g>
+      <g class="st21">
+        <polygon class="st9" points="1158.9 933.7 1158.9 1263.6 1332.9 1263.6 1332.9 1318.7 1096.6 1318.7 1096.6 933.7 1158.9 933.7"/>
+        <path class="st29" d="M2548.6,1155.8c12.8,0,24.5-2.4,35.2-7.3,10.7-4.9,20-11.4,27.9-19.4,8-8,14.2-17.2,18.6-27.5,4.5-10.3,6.7-21.1,6.7-32.3s-2.2-21.9-6.7-32.3c-4.5-10.3-10.7-19.5-18.6-27.5-8-8-17.3-14.5-27.9-19.4-10.7-4.9-22.4-7.3-35.2-7.3h-146.1v-49.3h138.5c34.9,0,65.6,7.5,92,22.6,15.1,8.7,28,19.4,38.7,32,10.7,12.6,18.7,26.8,24.2,42.5,1.5,3.8,2.5,7.2,2.9,10,0,1,.2,1.7.6,2.1.4,2.1.7,4.2.9,6.3.2,2.1.5,4,.9,5.8v1c.4,2.1.7,4.2.9,6.3.2,2.1.3,4.4.3,6.8v1c0,2.4,0,4.7-.3,6.8-.2,2.1-.5,4.2-.9,6.3l-1.7,13.1c-.4.4-.6,1.1-.6,2.1-.4,1.7-.8,3.3-1.2,4.7-.4,1.4-1,3-1.7,4.7-5.4,16.1-13.5,30.4-24.2,43-10.7,12.6-23.6,23.3-38.7,32-12.8,7-27,12.5-42.5,16.5-15.5,4-32,6-49.5,6h-76.3v113.8h-62.3v-165.1l62.3,1.9h83.8Z"/>
+        <path class="st58" d="M2994.7,1155.8c12.8,0,24.5-2.5,35.2-7.4,10.7-4.9,19.9-11.4,27.6-19.5,7.8-8.1,14-17.3,18.6-27.6,4.7-10.3,7-21.1,7-32.4s-2.3-21.6-7-32.1c-4.7-10.5-10.9-19.7-18.6-27.6-7.8-7.9-17-14.3-27.6-19.2-10.7-4.9-22.4-7.4-35.2-7.4h-146.1v-49.3h138.5c17.5,0,33.9,2,49.2,6,15.3,4,29.4,9.5,42.2,16.5,31.4,17.8,52.6,42.8,63.4,75,.4,1.7.8,3.3,1.2,4.7.4,1.4,1,3,1.7,4.7v2.6c.8,1.7,1.3,3.7,1.5,5.8.2,2.1.5,4.2.9,6.3.4,2.6.6,4.7.6,6.8v14.7c0,2.1-.2,4.2-.6,6.3v1c-.4,2.1-.7,4.1-.9,6-.2,1.9-.7,3.9-1.5,6v2.1c-1.5,3.8-2.5,7.2-2.9,10-5.4,15.7-13.5,29.9-24.2,42.5-10.7,12.6-23.8,23.3-39.3,32-.8.7-1.7,1.2-2.9,1.6-1.2.4-2.1.9-2.9,1.6l75.1,133.2h-65.8l-65.8-115.9c-4.7.7-9.3,1.2-14,1.6-4.7.4-9.7.5-15.1.5h-76.3v113.8h-62.3v-165.1l62.3,1.9h83.8Z"/>
+        <path class="st35" d="M3443.8,932.6c28.8,0,55.9,5.1,81.2,15.2,25.4,10.1,47.4,24,66.2,41.4,18.7,17.5,33.5,38,44.3,61.6,10.8,23.6,16.2,48.9,16.2,75.8s-5.4,51.6-16.2,75c-10.8,23.4-25.6,43.9-44.3,61.4-18.7,17.5-40.8,31.3-66.2,41.4-25.4,10.1-52.4,15.2-81.2,15.2s-55.8-5.1-80.9-15.2c-25.2-10.1-47.2-24-65.9-41.4-18.7-17.5-33.5-37.9-44.3-61.4-10.8-23.4-16.2-48.4-16.2-75s5.4-52.2,16.2-75.8c10.8-23.6,25.6-44.1,44.3-61.6,18.7-17.5,40.7-31.3,65.9-41.4,25.2-10.1,52.2-15.2,80.9-15.2ZM3443.8,1265.7c19.7,0,38.3-3.7,56-11,17.6-7.3,32.9-17.2,46-29.8,13.1-12.5,23.4-27.3,31-44.2,7.6-16.9,11.4-34.9,11.4-54.1s-3.8-37.3-11.4-54.3c-7.6-17.1-17.9-32-31-44.7-13.1-12.7-28.4-22.7-46-30-17.6-7.3-36.3-11-56-11s-38.2,3.7-55.7,11c-17.4,7.3-32.7,17.3-45.7,30-13.1,12.7-23.4,27.6-31,44.7-7.6,17.1-11.4,35.2-11.4,54.3s3.8,37.2,11.4,54.1c7.6,16.9,17.9,31.6,31,44.2,13.1,12.5,28.3,22.5,45.7,29.8,17.4,7.3,36,11,55.7,11Z"/>
+        <polygon class="st46" points="1660.6 1062.5 1519.5 1318.4 1451.5 1318.4 1660.6 934 1869.7 1318.4 1829.5 1318.4 1801.7 1318.4 1660.6 1318.4 1660.6 1258.8 1768.9 1258.8 1660.6 1062.5"/>
+        <path class="st43" d="M2030.6,1263.6h221.8v54h-291.7v-224.3h69.9v170.3ZM1960.7,934.7h291.7v54h-291.7v-54ZM2102.5,1093.3h149.8v54h-149.8v-54Z"/>
+        <path class="st39" d="M3887.7,1093h143v54h-143v-54ZM3749.2,1318.4v-223.8h62.3v223.8h-62.3ZM3749.2,988v-54h281.4v54h-281.4Z"/>
+        <path class="st50" d="M4333.5,1093h143v54h-143v-54ZM4195.1,1318.4v-223.8h62.3v223.8h-62.3ZM4195.1,988v-54h281.4v54h-281.4Z"/>
+      </g>
+      <g>
+        <g>
+          <polygon class="st1" points="2345.5 789.7 2345.5 1217.2 2569.8 1217.2 2569.8 1288.6 2265.2 1288.6 2265.2 789.7 2345.5 789.7"/>
+          <path class="st18" d="M2912.3,1077.5c16.5,0,31.6-3.2,45.4-9.5,13.8-6.3,25.8-14.7,36-25.1,10.3-10.4,18.3-22.3,24-35.7,5.7-13.4,8.6-27.3,8.6-41.8s-2.9-28.4-8.6-41.8c-5.8-13.4-13.8-25.3-24-35.7-10.3-10.4-22.3-18.8-36-25.1-13.8-6.3-28.9-9.5-45.4-9.5h-188.3v-63.9h178.6c45,0,84.5,9.7,118.5,29.2,19.5,11.3,36.1,25.1,49.9,41.5,13.7,16.3,24.1,34.7,31.1,55.1,2,5,3.2,9.3,3.7,12.9,0,1.4.3,2.3.7,2.7.5,2.7.9,5.4,1.1,8.2.3,2.7.6,5.2,1.1,7.5v1.4c.5,2.7.9,5.4,1.1,8.2.3,2.7.4,5.7.4,8.8v1.4c0,3.2-.1,6.1-.4,8.8-.2,2.7-.6,5.4-1.1,8.2l-2.2,17c-.5.5-.7,1.4-.7,2.7-.5,2.3-1,4.3-1.5,6.1-.5,1.8-1.3,3.8-2.2,6.1-7,20.8-17.4,39.4-31.1,55.7-13.8,16.3-30.4,30.1-49.9,41.5-16.5,9.1-34.8,16.2-54.8,21.4-20,5.2-41.3,7.8-63.8,7.8h-98.3v147.5h-80.3v-213.9l80.3,2.5h108Z"/>
+        </g>
+        <path class="st24" d="M2954.7,1125.8c12.8,0,24.5-2.5,35.2-7.4,10.7-4.9,19.9-11.4,27.6-19.5,7.8-8.1,14-17.3,18.6-27.6,4.7-10.3,7-21.1,7-32.4s-2.3-21.6-7-32.1c-4.7-10.5-10.9-19.7-18.6-27.6-7.8-7.9-17-14.3-27.6-19.2-10.7-4.9-22.4-7.4-35.2-7.4h-146.1v-49.3h138.5c17.5,0,33.9,2,49.2,6,15.3,4,29.4,9.5,42.2,16.5,31.4,17.8,52.6,42.8,63.4,75,.4,1.7.8,3.3,1.2,4.7.4,1.4,1,3,1.7,4.7v2.6c.8,1.7,1.3,3.7,1.5,5.8.2,2.1.5,4.2.9,6.3.4,2.6.6,4.7.6,6.8v14.7c0,2.1-.2,4.2-.6,6.3v1c-.4,2.1-.7,4.1-.9,6-.2,1.9-.7,3.9-1.5,6v2.1c-1.5,3.8-2.5,7.2-2.9,10-5.4,15.7-13.5,29.9-24.2,42.5-10.7,12.6-23.8,23.3-39.3,32-.8.7-1.7,1.2-2.9,1.6-1.2.4-2.1.9-2.9,1.6l75.1,133.2h-65.8l-65.8-115.9c-4.7.7-9.3,1.2-14,1.6-4.7.4-9.7.5-15.1.5h-76.3v113.8h-62.3v-165.1l62.3,1.9h83.8Z"/>
+        <path class="st25" d="M3403.8,902.6c28.8,0,55.9,5.1,81.2,15.2,25.4,10.1,47.4,24,66.2,41.4,18.7,17.5,33.5,38,44.3,61.6,10.8,23.6,16.2,48.9,16.2,75.8s-5.4,51.6-16.2,75c-10.8,23.4-25.6,43.9-44.3,61.4-18.7,17.5-40.8,31.3-66.2,41.4-25.4,10.1-52.4,15.2-81.2,15.2s-55.8-5.1-80.9-15.2c-25.2-10.1-47.2-24-65.9-41.4-18.7-17.5-33.5-37.9-44.3-61.4-10.8-23.4-16.2-48.4-16.2-75s5.4-52.2,16.2-75.8c10.8-23.6,25.6-44.1,44.3-61.6,18.7-17.5,40.7-31.3,65.9-41.4,25.2-10.1,52.2-15.2,80.9-15.2ZM3403.8,1235.7c19.7,0,38.3-3.7,56-11,17.6-7.3,32.9-17.2,46-29.8,13.1-12.5,23.4-27.3,31-44.2,7.6-16.9,11.4-34.9,11.4-54.1s-3.8-37.3-11.4-54.3c-7.6-17.1-17.9-32-31-44.7-13.1-12.7-28.4-22.7-46-30-17.6-7.3-36.3-11-56-11s-38.2,3.7-55.7,11c-17.4,7.3-32.7,17.3-45.7,30-13.1,12.7-23.4,27.6-31,44.7-7.6,17.1-11.4,35.2-11.4,54.3s3.8,37.2,11.4,54.1c7.6,16.9,17.9,31.6,31,44.2,13.1,12.5,28.3,22.5,45.7,29.8,17.4,7.3,36,11,55.7,11Z"/>
+        <polygon class="st20" points="1620.6 1032.5 1479.5 1288.4 1411.5 1288.4 1620.6 904 1829.7 1288.4 1789.5 1288.4 1761.7 1288.4 1620.6 1288.4 1620.6 1228.8 1728.9 1228.8 1620.6 1032.5"/>
+        <path class="st23" d="M1990.6,1233.6h221.8v54h-291.7v-224.3h69.9v170.3ZM1920.7,904.7h291.7v54h-291.7v-54ZM2062.5,1063.3h149.8v54h-149.8v-54Z"/>
+        <path class="st27" d="M3847.7,1063h143v54h-143v-54ZM3709.2,1288.4v-223.8h62.3v223.8h-62.3ZM3709.2,958v-54h281.4v54h-281.4Z"/>
+        <path class="st22" d="M4293.5,1063h143v54h-143v-54ZM4155.1,1288.4v-223.8h62.3v223.8h-62.3ZM4155.1,958v-54h281.4v54h-281.4Z"/>
+      </g>
+    </g>
+    <g id="potolok">
+      <rect x="2234.2" y="638.1" width="901.2" height="47.1"/>
+      <g class="st55">
+        <path d="M3133.5,703.8h-896.9c-1.2-7.8-2.4-15.7-3.6-23.5h903.7c-1,7.8-2.1,15.7-3.1,23.5Z"/>
+      </g>
+      <g class="st26">
+        <g class="st16">
+          <rect x="2234.2" y="660.9" width="901.2" height="47.1"/>
+        </g>
+      </g>
+      <path d="M3132.3,695.3h-894.5c-1.2-3.4-2.4-6.9-3.6-10.3h901.2c-1,3.4-2.1,6.9-3.1,10.3Z"/>
+      <g class="st48">
+        <g class="st59">
+          <rect class="st60" x="2214.1" y="639.4" width="941.3" height="633.9"/>
+        </g>
+      </g>
+      <rect class="st44" x="2461.8" y="673.4" width="446" height="18.4"/>
+      <g class="st33">
+        <g class="st14">
+          <g>
+            <image class="st28" width="527" height="443" transform="translate(2421 632.3)" xlink:href="lp_favicon-5.png"/>
+            <path class="st37" d="M2938.6,1054.5c-168.7,3.8-337.4,7.6-506.1,11.4-.5-141.4-1-282.7-1.5-424.1h507.2c.1,137.6.2,275.1.4,412.6Z"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

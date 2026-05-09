@@ -6,15 +6,15 @@ import p2 from "@/assets/portfolio-2.jpg";
 import p3 from "@/assets/portfolio-3.jpg";
 import p4 from "@/assets/portfolio-4.jpg";
 import p5 from "@/assets/portfolio-5.jpg";
-import p6 from "@/assets/portfolio-6.jpg";
+import p6 from "@/assets/portfolio-7.jpg";
 
 const items = [
   { key: "stretch", img: p1 },
   { key: "suspended", img: p2 },
   { key: "acoustic", img: p3 },
   { key: "lighting", img: p4 },
-  { key: "repair", img: p5 },
-  { key: "multilevel", img: p6 },
+  { key: "multilevel", img: p5 },
+  { key: "repair", img: p6 },
 ];
 
 const Services = () => {

@@ -41,6 +41,14 @@
     "ctaContact": "Contact us",
     "disclaimer": "* Final price confirmed after free on-site measurement."
   },
+    "about":{
+      "title":"12 years of craft.\nOne mission: the perfect ceiling.",
+      "description":"Laeproff is an Estonian ceiling specialist focused on high-end stretch, suspended, acoustic and lit ceilings. We design, supply and install — keeping every project on time, on budget and dust-free.",
+      "projects":"projects",
+      "years":"years",
+      "warranty":"warranty",
+      "y":"y"
+  },
   "services": {
     "eyebrow": "Our services",
     "title": "Ceiling solutions for every space",

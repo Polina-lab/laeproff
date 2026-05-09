@@ -26,7 +26,7 @@ const TopBar = () => {
     ?? "ET";
 
   return (
-    <div className="hidden md:block w-full bg-[hsl(0_0%_3%)] border-b border-border text-xs">
+    <div className="hidden md:block sticky top-0 z-50 w-full bg-[hsl(0_0%_3%)] border-b border-border text-xs">
       <div className="container-px max-w-7xl mx-auto h-9 flex items-center justify-between text-muted-foreground">
         <div className="flex items-center gap-6">
           <span className="flex items-center gap-2"><Clock className="h-3.5 w-3.5 text-primary" /> {t("topbar.hours")}</span>

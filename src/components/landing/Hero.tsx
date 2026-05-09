@@ -1,5 +1,5 @@
 import heroImg from "@/assets/hero-ceiling.jpg";
-import logo from "@/assets/logo-laeproff.png";
+import logo from "@/assets/logo_laeproff_white.svg";
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
 import { useTranslation } from "react-i18next";

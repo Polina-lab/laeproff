@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 import { Menu, X, Globe } from "lucide-react";
 import { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
-import logo from "@/assets/logo-laeproff.png";
+import logo from "@/assets/lp_favicon3.svg";
 
 const Navbar = () => {
   const { t, i18n } = useTranslation();
@@ -35,7 +35,7 @@ const Navbar = () => {
 
   return (
     <header
-      className={`sticky top-0 inset-x-0 z-40 transition-all duration-300 ${
+      className={`sticky top-0 md:top-9 inset-x-0 z-40 transition-all duration-300 ${
         scrolled ? "bg-background/90 backdrop-blur-lg border-b border-border" : "bg-background/60 backdrop-blur"
       }`}
     >
