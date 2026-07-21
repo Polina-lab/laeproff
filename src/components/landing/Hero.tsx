@@ -40,7 +40,7 @@ const Hero = () => {
                   {t("hero.ctaPrimary")} <ArrowRight className="ml-2 h-4 w-4" />
                 </a>
               </Button>
-              <Button asChild size="lg" variant="outline" className="h-12 px-7 border-foreground/20 bg-background/30 backdrop-blur hover:bg-background/60">
+              <Button asChild size="lg" variant="outline" className="h-12 px-7 border-foreground/20 bg-background/30 backdrop-blur hover:bg-secondary/30 hover:border-foreground/40 hover:text-foreground transition-colors">
                 <a href="#portfolio">{t("hero.ctaSecondary")}</a>
               </Button>
             </div>

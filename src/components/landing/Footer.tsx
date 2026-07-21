@@ -4,7 +4,7 @@ import logo from "@/assets/logo_laeproff_white.svg";
 
 const Footer = () => {
   const { t } = useTranslation();
-  const SERVICE_KEYS = ["stretch", "suspended", "acoustic", "lighting", "repair", "multilevel"];
+  const SERVICE_KEYS = ["stretch", "suspended", "lighting", "repair", "multilevel"];
   const NAV = [
     { href: "#calculator", label: t("nav.calculator") },
     { href: "#services", label: t("nav.services") },

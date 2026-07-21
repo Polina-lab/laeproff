@@ -7,11 +7,10 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@
 import { Calculator as CalcIcon, ArrowRight } from "lucide-react";
 import { useLead } from "@/context/LeadContext";
 
-const SERVICE_KEYS = ["stretch", "suspended", "acoustic", "lighting", "repair", "multilevel"] as const;
+const SERVICE_KEYS = ["stretch", "suspended", "lighting", "repair", "multilevel"] as const;
 const RATES: Record<string, number> = {
   stretch: 25,
   suspended: 30,
-  acoustic: 45,
   lighting: 35,
   repair: 28,
   multilevel: 50,
@@ -49,7 +48,7 @@ const Calculator = () => {
   };
 
   return (
-    <div id="calculator" className="relative rounded-2xl border border-primary/30 bg-card/95 backdrop-blur-xl p-6 md:p-8 shadow-[var(--shadow-elevated)]">
+    <div id="calculator" className="section-light relative rounded-2xl border border-primary/30 bg-card/95 backdrop-blur-xl p-6 md:p-8 shadow-[var(--shadow-elevated)]">
       <div className="absolute -top-px left-10 right-10 h-px bg-gradient-to-r from-transparent via-primary to-transparent" />
       <div className="flex items-center gap-3 mb-1">
         <div className="h-10 w-10 rounded-lg bg-primary/10 text-primary flex items-center justify-center border border-primary/30">
@@ -65,7 +64,7 @@ const Calculator = () => {
         <div className="col-span-2">
           <Label className="text-xs">{t("calc.type")}</Label>
           <Select value={type} onValueChange={setType}>
-            <SelectTrigger className="mt-1.5 h-11 bg-background/60 border-border">
+            <SelectTrigger className="mt-1.5 h-11 bg-background/0 border-border">
               <SelectValue />
             </SelectTrigger>
             <SelectContent>
@@ -84,7 +83,7 @@ const Calculator = () => {
             min={1}
             value={area}
             onChange={(e) => setArea(Number(e.target.value) || 0)}
-            className="mt-1.5 h-11 bg-background/60 border-border"
+            className="mt-1.5 h-11 bg-background/0 border-border"
           />
         </div>
         <div>
@@ -94,7 +93,7 @@ const Calculator = () => {
             min={0}
             value={lamps}
             onChange={(e) => setLamps(Number(e.target.value) || 0)}
-            className="mt-1.5 h-11 bg-background/60 border-border"
+            className="mt-1.5 h-11 bg-background/0 border-border"
           />
         </div>
         <div className="col-span-2">
@@ -104,12 +103,12 @@ const Calculator = () => {
             min={0}
             value={pipes}
             onChange={(e) => setPipes(Number(e.target.value) || 0)}
-            className="mt-1.5 h-11 bg-background/60 border-border"
+            className="mt-1.5 h-11 bg-background/0 border-border"
           />
         </div>
       </div>
 
-      <div className="mt-6 rounded-xl bg-background/60 border border-border p-4">
+      <div className="mt-6 rounded-xl bg-background/0 border border-border p-4">
         <div className="flex items-baseline justify-between mb-3">
           <span className="text-xs uppercase tracking-wider text-muted-foreground">{t("calc.estimate")}</span>
           <span className="text-3xl md:text-4xl font-bold text-primary">

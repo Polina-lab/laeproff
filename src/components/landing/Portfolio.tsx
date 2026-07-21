@@ -9,7 +9,6 @@ import { useLead } from "@/context/LeadContext";
 
 const items = [
   { img: p1, key: "stretch", span: "md:col-span-2 md:row-span-2" },
-  { img: p3, key: "acoustic" },
   { img: p4, key: "lighting" },
   { img: p2, key: "suspended" },
   { img: p5, key: "multilevel" },

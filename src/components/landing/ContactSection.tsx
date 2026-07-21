@@ -10,7 +10,7 @@ import { toast } from "sonner";
 import { z } from "zod";
 import { useLead } from "@/context/LeadContext";
 
-const SERVICE_KEYS = ["stretch", "suspended", "acoustic", "lighting", "repair", "multilevel"];
+const SERVICE_KEYS = ["stretch", "suspended", "lighting", "repair", "multilevel"];
 
 const schema = z.object({
   name: z.string().trim().min(2).max(100),
@@ -64,28 +64,28 @@ const ContactSection = () => {
 
         <div className="grid lg:grid-cols-5 gap-8">
           <div className="lg:col-span-2 reveal space-y-4">
-            <a href={`tel:${t("topbar.phone")}`} className="flex items-start gap-4 p-5 rounded-xl border border-border bg-card hover:border-primary/50 transition-colors">
+            <a href={`tel:${t("topbar.phone")}`} className="section-light flex items-start gap-4 p-5 rounded-xl border border-border bg-card hover:border-primary/50 transition-colors">
               <Phone className="h-5 w-5 text-primary mt-0.5" />
               <div>
                 <div className="text-xs uppercase tracking-wider text-muted-foreground">Phone</div>
                 <div className="font-semibold mt-1">{t("topbar.phone")}</div>
               </div>
             </a>
-            <a href={`mailto:${t("topbar.email")}`} className="flex items-start gap-4 p-5 rounded-xl border border-border bg-card hover:border-primary/50 transition-colors">
+            <a href={`mailto:${t("topbar.email")}`} className="section-light flex items-start gap-4 p-5 rounded-xl border border-border bg-card hover:border-primary/50 transition-colors">
               <Mail className="h-5 w-5 text-primary mt-0.5" />
               <div>
                 <div className="text-xs uppercase tracking-wider text-muted-foreground">Email</div>
                 <div className="font-semibold mt-1">{t("topbar.email")}</div>
               </div>
             </a>
-            <div className="flex items-start gap-4 p-5 rounded-xl border border-border bg-card">
+            <div className="section-light flex items-start gap-4 p-5 rounded-xl border border-border bg-card">
               <Clock className="h-5 w-5 text-primary mt-0.5" />
               <div>
                 <div className="text-xs uppercase tracking-wider text-muted-foreground">Hours</div>
                 <div className="font-semibold mt-1">{t("contact.hours")}</div>
               </div>
             </div>
-            <div className="flex items-start gap-4 p-5 rounded-xl border border-border bg-card">
+            <div className="section-light flex items-start gap-4 p-5 rounded-xl border border-border bg-card">
               <MapPin className="h-5 w-5 text-primary mt-0.5" />
               <div>
                 <div className="text-xs uppercase tracking-wider text-muted-foreground">Location</div>
@@ -94,23 +94,23 @@ const ContactSection = () => {
             </div>
           </div>
 
-          <form onSubmit={onSubmit} className="lg:col-span-3 grid sm:grid-cols-2 gap-4 reveal p-6 md:p-8 rounded-2xl border border-primary/20 bg-card">
+          <form onSubmit={onSubmit} className="section-light lg:col-span-3 grid sm:grid-cols-2 gap-4 reveal p-6 md:p-8 rounded-2xl border border-primary/20 bg-card">
             <div>
               <Label htmlFor="name">{t("contact.name")}</Label>
-              <Input id="name" name="name" required maxLength={100} className="mt-2 h-12 bg-background/60 border-border" />
+              <Input id="name" name="name" required maxLength={100} className="mt-2 h-12 bg-background/0 border-border" />
             </div>
             <div>
               <Label htmlFor="phone">{t("contact.phone")}</Label>
-              <Input id="phone" name="phone" type="tel" required maxLength={30} className="mt-2 h-12 bg-background/60 border-border" />
+              <Input id="phone" name="phone" type="tel" required maxLength={30} className="mt-2 h-12 bg-background/0 border-border" />
             </div>
             <div className="sm:col-span-2">
               <Label htmlFor="email">{t("contact.email")}</Label>
-              <Input id="email" name="email" type="email" required maxLength={255} className="mt-2 h-12 bg-background/60 border-border" />
+              <Input id="email" name="email" type="email" required maxLength={255} className="mt-2 h-12 bg-background/0 border-border" />
             </div>
             <div className="sm:col-span-2">
               <Label>{t("services.eyebrow")}</Label>
               <Select value={service} onValueChange={setService}>
-                <SelectTrigger className="mt-2 h-12 bg-background/60 border-border">
+                <SelectTrigger className="mt-2 h-12 bg-background/0 border-border">
                   <SelectValue />
                 </SelectTrigger>
                 <SelectContent>
@@ -130,7 +130,7 @@ const ContactSection = () => {
                 placeholder={t("contact.messagePh")}
                 rows={6}
                 maxLength={2000}
-                className="mt-2 bg-background/60 border-border resize-none"
+                className="mt-2 bg-background/0 border-border resize-none"
               />
             </div>
             <div className="sm:col-span-2">

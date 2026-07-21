@@ -21,7 +21,7 @@ const Advantages = () => {
           {items.map(({ key, Icon }, i) => (
             <div
               key={key}
-              className="reveal group p-7 rounded-xl border border-border bg-card hover:border-primary/50 transition-all duration-500"
+              className="section-light reveal group p-7 rounded-xl border border-border bg-card hover:border-primary/50 transition-all duration-500"
               style={{ transitionDelay: `${i * 80}ms` }}
             >
               <div className="h-12 w-12 rounded-lg bg-primary/10 text-primary flex items-center justify-center border border-primary/30 mb-5 group-hover:bg-primary group-hover:text-primary-foreground transition-colors">

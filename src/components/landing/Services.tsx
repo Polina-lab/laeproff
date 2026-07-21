@@ -11,7 +11,6 @@ import p6 from "@/assets/portfolio-7.jpg";
 const items = [
   { key: "stretch", img: p1 },
   { key: "suspended", img: p2 },
-  { key: "acoustic", img: p3 },
   { key: "lighting", img: p4 },
   { key: "multilevel", img: p5 },
   { key: "repair", img: p6 },

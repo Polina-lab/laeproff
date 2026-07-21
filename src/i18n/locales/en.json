@@ -55,7 +55,6 @@
     "items": {
       "stretch": { "name": "Stretch ceilings", "desc": "Matte, satin or gloss film installed in one day, dust-free." },
       "suspended": { "name": "Suspended ceilings", "desc": "Modular grid and gypsum systems for offices and retail." },
-      "acoustic": { "name": "Acoustic ceilings", "desc": "Wood, fabric and mineral panels reducing noise up to 70%." },
       "lighting": { "name": "Lighting integration", "desc": "Recessed spots, linear LEDs, cove and starry-sky lighting." },
       "repair": { "name": "Repair & replacement", "desc": "Water damage, sagging, cracks — restored or replaced fast." },
       "multilevel": { "name": "Multi-level ceilings", "desc": "Designer multi-tier compositions with hidden lighting." }

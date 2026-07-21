@@ -55,7 +55,6 @@
     "items": {
       "stretch": { "name": "Pingullaed", "desc": "Matt, satiin või läige — paigaldus ühe päevaga, tolmuvaba." },
       "suspended": { "name": "Ripplaed", "desc": "Modulaarne süsteem ja kips kontoritele ja kauplustele." },
-      "acoustic": { "name": "Akustilised laed", "desc": "Puit-, kangas- ja mineraalpaneelid kuni 70% mürasummutusega." },
       "lighting": { "name": "Valgustuse integreerimine", "desc": "Süvistatud, lineaarsed LED-id, tähistaevas." },
       "repair": { "name": "Remont ja vahetus", "desc": "Veekahjustused, mõrad, vananenud süsteemid — kiiresti korda." },
       "multilevel": { "name": "Mitmetasandilised laed", "desc": "Disainerlikud mitmetasandilised lahendused peidetud valgustusega." }
